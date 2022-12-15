@@ -4,7 +4,7 @@
 
 0. cd into project directory
 1. install dependencies with: `pip install -r requirements.txt` 
-2. insert your credentials in: *credentials.json*
+2. insert your credentials in: [*credentials.json*](credentials.json)
 
 ## Instructions
 
@@ -14,7 +14,7 @@
 
 ### Presenza
 
-Invoke the script like this: **python** */path/to/autofill_presence.py* **"Presenza" "In sede" asa_1=6 asa_2=2**
+Invoke the script like this: **python** [*/path/to/autofill_presence.py*](src/autofill_presence.py) **"Presenza" "In sede" asa_1=6 asa_2=2**
 
  - The second argument is an enum and it can be:
 	 - **In sede**
@@ -24,7 +24,7 @@ Invoke the script like this: **python** */path/to/autofill_presence.py* **"Prese
 
 ### Smart
 
-Invoke the script like this: **python** */path/to/autofill_presence.py* **"Smart" 8 0800**
+Invoke the script like this: **python** [*/path/to/autofill_presence.py*](src/autofill_presence.py) **"Smart" 8 0800**
 
 - The second argument is used for smart working hours
 
