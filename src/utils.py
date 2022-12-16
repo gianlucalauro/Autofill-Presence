@@ -41,7 +41,7 @@ def insert_asa_and_submit():
     for i in range(3, len(sys.argv)):
         do(By.NAME, sys.argv[i].split('=')[0], "clear_and_send_keys", sys.argv[i].split('=')[1])
     do(By.XPATH, "//form[@id='kt_modal_add_schedule_form']/div[3]/span/span/span", "click")
-    do(By.XPATH, f"//li[text()='{sys.argv[1]}']", "click")
+    do(By.XPATH, f"//li[text()='{sys.argv[2]}']", "click")
     do(By.XPATH, "//button[text()='Salva Presenza']", "click")
 
 def insert_smart_permission():
